@@ -17,4 +17,6 @@ message StudentResponse {
   string name = 2;
   string major = 3;
   string email = 4;
+  string faculty = 5;
+  int32 year = 6;
 }

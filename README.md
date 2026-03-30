@@ -310,3 +310,7 @@ Students must:
 - Submit at: `https://courses.cs.tu.ac.th`
 
 Note: `รหัสนักศึกษา` is your student ID
+
+## Additional Feature
+- Added faculty and year fields to StudentResponse
+- Updated server and client to support new fields

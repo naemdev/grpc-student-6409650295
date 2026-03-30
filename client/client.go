@@ -35,4 +35,6 @@ func main() {
 	log.Printf("Name: %s", res.Name)
 	log.Printf("Major: %s", res.Major)
 	log.Printf("Email: %s", res.Email)
+	log.Printf("Faculty: %s", res.Faculty)
+	log.Printf("Year: %d", res.Year)
 }

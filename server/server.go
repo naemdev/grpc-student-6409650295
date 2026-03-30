@@ -20,10 +20,12 @@ func (s *server) GetStudent(ctx context.Context, req *pb.StudentRequest) (*pb.St
 
 	// Mock data
 	return &pb.StudentResponse{
-		Id:    req.Id,
-		Name:  "Alice Johnson",
-		Major: "Computer Science",
-		Email: "alice@university.com",
+		Id:      req.Id,
+		Name:    "Alice Johnson",
+		Major:   "Computer Science",
+		Email:   "alice@university.com",
+		Faculty: "Engineering",
+		Year:    2,
 	}, nil
 }
 
